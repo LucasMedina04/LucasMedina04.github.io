@@ -42,8 +42,26 @@ ul {
 }
 
 .titulo{
+    color: white;
     text-align: center;
     text-shadow: 4px 4px #046daa;
     font-size: 50px;
+    font-family: sans-serif;
+}
+
+.subtitulocentro{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px #046daa;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.subtituloizq{
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    text-shadow: 2px 2px #046daa;
+    font-size: 25px;
     font-family: sans-serif;
 }
