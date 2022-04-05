@@ -22,6 +22,28 @@ ul {
     background-color: rgb(11, 8, 48);
   }
 
+  /*Clases*/
   .active {
     background-color: #0704aa;
   }
+
+  .texticon{
+    vertical-align: bottom;
+  }
+
+.button1{
+    background-color: #0704aa!important;
+    border-radius: 5px;
+    border-color: #046daa;
+    color: white;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 9px;
+}
+
+.titulo{
+    text-align: center;
+    text-shadow: 4px 4px #046daa;
+    font-size: 50px;
+    font-family: sans-serif;
+}
