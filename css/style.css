@@ -31,16 +31,6 @@ ul {
     vertical-align: bottom;
   }
 
-.button1{
-    background-color: #0704aa!important;
-    border-radius: 5px;
-    border-color: #046daa;
-    color: white;
-    font-size: 17px;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 6px 9px;
-}
-
 .titulo{
     color: white;
     text-align: center;

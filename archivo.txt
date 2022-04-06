@@ -1,0 +1,14 @@
+<html>
+    <head>
+		<link rel="stylesheet" href="..\css\style.css">
+        <title>Spaced - Register</title>
+    </head>
+    <body text="white" bgcolor="black">
+		<ul>
+        <li><a href="index.html">Home</a></li>
+        <li style="float:right"><a class="active" href="">Register</a></li>
+        <li style="float:right"><a href="about.html">About</a></li>
+		</ul>
+    <form action=""></form>
+    </body>
+</html>
