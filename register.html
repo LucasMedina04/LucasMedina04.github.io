@@ -7,44 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spaced - Register</title>
 </head>
-    <body text="white" bgcolor="black">
-        <ul>
+    <body>
+        <ul class="bar">
             <li><a href="index.html">Home</a></li>
             <li style="float:right"><a class="active" href="">Register</a></li>
             <li style="float:right"><a href="about.html">About</a></li>
         </ul>
-        <H1 align="center" style="font-family: 'Courier New', Courier, monospace;"> <u>Bienvenido a Spaced </u> </H1>
-        <h2 align="center" style="font-family: 'Courier New', Courier, monospace;">Registro</h2>
-        <br> <br> <br> <br>
-        <form action="">
-            <table align="center" style="font-family: sans-serif;">
-                <tr>
-                    <td> <label for="name">Nombre: </label></td> <td> <input required type="text" id="name" placeholder="Ingrese su nombre" ></td>
-                </tr>
-                <tr>
-                    <td> <label for="apel">Apellido:</label></td> <td> <input required type="text" id="apel" placeholder="Ingrese su apellido"></td>
-                </tr>
-                <tr>
-                    <td> <label for="gender"> Genero: </label> </td>
-                    <td>
+        
+        <div class="cuadro">
+            <div class="reg">
+                <p class="reg"> <br> <u> <b>Bienvenido a Spaced </b> </u> <br><br>
+                    En este lugar encontraras información sobre como está formado el universo... <br><br>
+                    Recopilamos información desde estrellas hasta de galaxias <br><br>
+                    Toda la información está disponible para que puedas verla y descubrir muchas cosas acerca del universo <br><br>
+                    <b>¡Registrate!</b> <br>
+                    Así sabrás cuando hay nueva información <br><br>
+                    <br>
+                </p>
+                <form class="reg">
+                    <label for="name"> Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                    <br>
+                    <label for="surname"> Apellido:</label>
+                    <input type="text" id="surname" name="surname" placeholder="Ingrese su apellido">
+                    <br>
+                    <label for="email"> Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su email">
+                    <br>
+                    <label for="gender">Género</label>
                     <select required id="gender">
                         <option value="">Seleccionar</option>
                         <option value="Masculino"> Masculino</option>
                         <option value="Femenino"> Femenino</option>
                         <option value="Otro"> Otro</option>
                     </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="mail">Correo electronico:</label></td> <td><input type="email" id="mail" required placeholder="Ingrese su email"></td>
-                </tr>
-                <tr>
-                    <td><label for="date">Fecha de nacimiento:</label></td> <td><input type="date" id="date" required></td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center"><input type="submit" value="Enviar"></td>
-                </tr>
-            </table>
-        </form>
+                    <br>
+                    <label for="password"> Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña">
+                    <br>
+                    <label for="password2"> Repita su contraseña:</label>
+                    <input type="password" id="password2" name="password2" placeholder="Repita su contraseña">
+                    <br>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
 </body>
 </html>
