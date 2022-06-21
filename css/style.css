@@ -86,10 +86,10 @@
   margin-top: 1%;
   margin-bottom: 1%;
 }
+
 .info p {
   background-color: #ffffff31;
-  border-radius: 100px;
-  padding: 15% 0px;
+  border-radius: 15px;
 }
 
 .cuadro {
