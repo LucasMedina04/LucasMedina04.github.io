@@ -86,6 +86,11 @@
   margin-top: 1%;
   margin-bottom: 1%;
 }
+.info p {
+  background-color: #ffffff31;
+  border-radius: 100px;
+  padding: 30px 10px;
+}
 
 .cuadro {
   background-color: #05045e;
@@ -169,13 +174,13 @@
 }
 
 .link1 {
-  color: green;
+  color: yellow;
   cursor: pointer;
   text-decoration: none;
 }
 
 .link1:hover {
-  color: yellow;
+  color: greenyellow;
 }
 
 body {
@@ -188,4 +193,10 @@ body {
 
 footer {
   text-align: center;
+}
+
+span {
+  background-color: #ffffff31;
+  border-radius: 100px;
+  padding: 5px 10px;
 }
