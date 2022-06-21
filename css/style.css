@@ -26,7 +26,6 @@
   background-color: #0704aa;
 }
 
-
 .titulo {
   color: white;
   text-align: center;
@@ -66,7 +65,6 @@
   margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
-  float: right;
 }
 
 .button1:hover {
@@ -170,8 +168,21 @@
   border-color: greenyellow;
 }
 
+.link1 {
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link1:hover {
+  color: yellow;
+}
+
 body {
   background-color: black;
+  background-image: url('../Img/Fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
 }
 
