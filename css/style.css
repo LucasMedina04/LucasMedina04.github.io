@@ -1,6 +1,10 @@
 header {
   width: 100%;
   background: #511ba8;
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 header label {
@@ -78,6 +82,7 @@ header label:hover {
   text-shadow: 4px 4px #046daa;
   font-size: 50px;
   font-family: sans-serif;
+  padding: 10px;
 }
 
 .sCenter {
@@ -146,6 +151,10 @@ header label:hover {
   height: 100%;
   margin-top: 3%;
   margin-bottom: 3%;
+}
+
+#reg {
+  height: 30px;
 }
 
 .reg {
@@ -235,6 +244,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+  user-select: none;
 }
 
 footer {
