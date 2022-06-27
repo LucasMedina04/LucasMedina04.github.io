@@ -1,29 +1,75 @@
-.bar{
-  list-style-type: none;
+header {
+  width: 100%;
+  background: #511ba8;
+}
+
+header label {
+  display: none;
+  width: 36px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid rgba(165, 98, 219, 0.192);
+}
+
+header label:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu ul{
   margin: 0;
+  list-style: none;
   padding: 0;
-  overflow: hidden;
-  background-color: rgb(16, 12, 70);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.bar li{
-  float: left;
-}
-
-.bar li a {
-  display: block;
-  color: white;
+.menu li {
   text-align: center;
-  padding: 14px 16px;
+  flex-grow: 1;
+  border: 1px solid rgba(165, 98, 219, 0.192);
+}
+
+.menu li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
   text-decoration: none;
 }
 
-.bar li a:hover {
-  background-color: rgb(11, 8, 48);
+#boton-menu {
+  display: none;
 }
 
-.active {
-  background-color: #0704aa;
+@media (max-width:768px) {
+  header label {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    background: #511ba8;
+    width: 50%;
+    margin-left: -80%;
+    transition: all 0.3s;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu li {
+    border: 1px solid rgba(165, 98, 219, 0.192);
+  }
+
+  #boton-menu:checked ~ .menu {
+    margin: 0;
+  }
 }
 
 .titulo {
