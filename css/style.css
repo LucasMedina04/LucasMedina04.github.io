@@ -159,6 +159,7 @@ header label:hover {
 .button1:hover {
   background-color: #046daa;
   color: white;
+  cursor: pointer;
 }
 
 .info {
@@ -272,6 +273,14 @@ header label:hover {
 }
 
 .link1:hover {
+  color: greenyellow;
+}
+
+.link1:visited {
+  color: red;
+}
+
+.link1:visited:hover {
   color: greenyellow;
 }
 
