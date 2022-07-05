@@ -55,6 +55,12 @@ header label:hover {
     display: block;
   }
 
+  div[class="info"] {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .menu {
     position: absolute;
     background: #511ba8;
@@ -74,6 +80,37 @@ header label:hover {
   #boton-menu:checked ~ .menu {
     margin: 0;
   }
+
+  .reg form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .reg form input[type="text"] {
+    width: 50%;
+  }
+
+  .reg form input[type="password"] {
+    width: 50%;
+  }
+
+  .reg form input[type="submit"] {
+    width: 35%;
+    margin: 0 auto;
+  }
+
+  .reg form input[type="email"] {
+    width: 50%;
+  }
+
+  .reg form select {
+    width: 50%;
+    text-align: center;
+  }
 }
 
 .titulo {
@@ -92,6 +129,7 @@ header label:hover {
   text-shadow: 2px 2px #046daa;
   font-size: 25px;
   font-family: sans-serif;
+  margin-top: 100px;
 }
 
 .sLeft {
@@ -149,12 +187,8 @@ header label:hover {
   border: 3px solid #046daa;
   padding: 5px 10px;
   height: 100%;
-  margin-top: 3%;
+  margin-top: 70px;
   margin-bottom: 3%;
-}
-
-#reg {
-  height: 30px;
 }
 
 .reg {
@@ -169,11 +203,9 @@ header label:hover {
   width: 50%;
   font-weight: 500;
   text-align: center;
-  border-right: #046daa groove 3px;
 }
 
 .reg form {
-  border-left: #046daa ridge 3px;
   text-align: right;
 }
 
@@ -222,10 +254,15 @@ header label:hover {
   text-decoration: none;
   font-size: large;
   margin-right: 40%;
+  cursor: pointer;
 }
 
 .reg input:hover , select:hover {
   border-color: greenyellow;
+}
+
+.reg select:hover {
+  cursor: pointer;
 }
 
 .link1 {
