@@ -430,17 +430,17 @@ div#popupContact {
 }
 
 #nombre {
-  background-image: url(/Img/nombre.svg);
+  background-image: url(../Img/nombre.svg);
   background-repeat: no-repeat;
 }
 
 #pu {
-  background-image: url(/Img/email.svg);
+  background-image: url(../Img/email.svg);
   background-repeat: no-repeat;
 }
 
 #msg {
-  background-image: url(/Img/msg.svg);
+  background-image: url(../Img/msg.svg);
   background-repeat: no-repeat;
   background-size: 35px;
 }

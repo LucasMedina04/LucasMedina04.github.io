@@ -8,7 +8,7 @@ class Barranavegacion extends HTMLElement {
 		<a name="Up">&nbsp</a>
 		<header>
 			<input type="checkbox" id="boton-menu">
-			<label for="boton-menu"><img src="Img/Icono_menu.png"></label>
+			<label for="boton-menu"><img src="./Img/Icono_menu.png"></label>
 			<nav class="menu">
 				<ul>
 					<li> <a href="index.html"> Inicio </a> </li>
