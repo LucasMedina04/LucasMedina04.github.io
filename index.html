@@ -6,23 +6,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="./js/popup.js"></script>
+		<script src="/js/navbar.js"></script>
+		<script src="/js/footer.js"></script>
 		<title>Spaced</title>
 	</head>
 	<body>
+		<nav-bar></nav-bar>
 		<div class="fondo1">
-			<a name="Up">&nbsp</a>
-			<header>
-				<input type="checkbox" id="boton-menu">
-				<label for="boton-menu"><img src="Img/Icono_menu.png"></label>
-				<nav class="menu">
-					<ul>
-						<li> <a href="index.html"> Inicio </a> </li>
-						<li> <a href="register.html"> Registro </a> </li>
-						<li> <a href="about.html"> Acerca de </a> </li>
-					</ul>
-				</nav>
-			</header>
-			<p class="titulo"> <span>Spaced</span> </p> <br><br>
+		<p class="titulo"> <span>Spaced</span> </p> <br><br>
 			<div class="indice">
 				<p class="sLeft"><a name="Indice"><span>Índice</span></a></p>
 				<ul>
@@ -57,22 +48,6 @@
 			<div class="info"> <img src="./Img/AgujeroNegro.jpg" height="300"></div>
 		</div>
 
-		<a href="#Up"> <button class="button1 sub">Subir</button> </a>
-		<div id="Popup">
-            <div id="popupContact">
-                <form class="popup-form" action="" id="form" method="post" name="form">
-                    <img id="close" src="./Img/x.png" onclick ="ocultar_popup()">
-                    <h2 class="popup-h2">Contactanos</h2>
-                    <hr class="popup-hr">
-                    <input class="popup-input" id="nombre" name="nombre" placeholder="Nombre" type="text">
-                    <input class="popup-input" id="pu" name="email" placeholder="Email" type="text">
-                    <textarea class="popup-textarea" id="msg" name="mensaje" placeholder="Mensaje"></textarea>
-                    <a href="javascript:%20check_formulario()" id="submit">Enviar</a>
-                </form>
-            </div>
-        </div>
-        
-        <button class="popup-button" id="popup" onclick="mostrar_popup()">Enviar Comentarios</button>
-		<footer>Medina Lucas 2022</footer>
+		<complete-footer></complete-footer>
 	</body>
 </html>
