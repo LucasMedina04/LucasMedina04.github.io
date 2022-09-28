@@ -107,6 +107,7 @@ header label:hover {
   background-color: #000;
   color: #fff;
   border-radius: 0px 50px 50px 0px;
+  border: 2px solid #fff;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
@@ -118,7 +119,7 @@ header label:hover {
 }
 
 .button1:hover {
-  background-color: rgb(99, 99, 99);
+  background-color: rgb(100, 100, 100);
   cursor: pointer;
 }
 
@@ -360,4 +361,136 @@ header label:hover {
 
 .separador {
   height: 20px;
+}
+
+.acercade-separador {
+  height: 50px
+}
+
+/*   Popup   */
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+#Popup {
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  background-color: #313131;
+  overflow: auto;
+}
+
+img#close {
+  height: 35px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+div#popupContact {
+  position: absolute;
+  left: 50%;
+  top: 17%;
+  margin-left: -202px;
+  font-family: 'Raleway',sans-serif;
+}
+
+.popup-form {
+  max-width: 300px;
+  min-width: 250px;
+  padding: 10px 50px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-family: 'Raleway',sans-serif;
+  background-color: #fff;
+}
+
+.popup-h2 {
+  background-color: #808080;
+  padding: 20px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.popup-hr {
+  margin: 10px -50px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.popup-input {
+  width: 82%;
+  padding: 10px;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding-left: 40px;
+  font-size: 16px;
+  font-family: 'Raleway',sans-serif;
+}
+
+#nombre {
+  background-image: url(/Img/nombre.svg);
+  background-repeat: no-repeat;
+}
+
+#pu {
+  background-image: url(/Img/email.svg);
+  background-repeat: no-repeat;
+}
+
+#msg {
+  background-image: url(/Img/msg.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+}
+
+.popup-textarea {
+  width: 82%;
+  height: 95px;
+  padding: 10px;
+  resize: none;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding-left: 40px;
+  font-size: 16px;
+  font-family: 'Raleway',sans-serif;
+  margin-bottom: 30px;
+}
+
+#submit {
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  display: block;
+  background-color: #FFBC00;
+  color: #fff;
+  border: 1px solid #FFCB00;
+  padding: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup-button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px 0px 0px 50px;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway',sans-serif;
+  cursor: pointer;
+  position: fixed;
+  top: 92%;
+  right: 0;
+}
+
+.popup-button:hover {
+  background-color: rgb(100, 100, 100);
 }
